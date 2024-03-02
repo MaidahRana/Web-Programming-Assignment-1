@@ -1,0 +1,98 @@
+body {
+    margin: 20px;
+    background-color:whitesmoke;
+    
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#profile 
+{
+    background-color: rgb(1, 1, 12);
+    color: white;
+}
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-pic {
+    max-width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info {
+    text-align: left;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+p {
+    color: black;
+    margin: 0;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) ;
+}
+
+h2 {
+    color: black;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-left: 5px;
+}
+
+.resume-sections {
+    display: flex;
+    justify-content: space-between;
+}
+#education
+{
+    width: 950px;
+}
+#skills
+{
+    width:400px;
+}
+
+#work-experience{
+    width: 500px;
+    margin-right: 10px;
+}
+
+#languages{
+    width: 500px;
+    margin-right: 10px;
+}
+#interest{
+    width: 500px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Optional: Adding a subtle hover effect on sections */
+section:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
